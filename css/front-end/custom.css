@@ -1,0 +1,228 @@
+:root{
+    --hex_font_family: 'Muli', sans-serif;
+    --hex_font_normal: 400;
+    --hex_font_medium: 500;
+    --hex_font_semibold: 700;
+    --hex_font_bold: 700;
+    --hex_font_extrabold: 800;
+    --hex_hexcon_theme_color: #8039E5;
+    --hex_hexcon_theme_color_hover: #9f63f3;
+}
+/*===============HEXCON AGENDA SINGLE STARTS==================*/
+
+.confirm-btn{
+    height: 48px;
+    border: none;
+    background: #000;
+    color: #fff;
+    width: 284px;
+    max-width: 100%;
+    font-family: "Open Sans",sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 300;
+}
+.disabled{
+    cursor: not-allowed;
+    background-color: rgb(229, 229, 229) !important;
+}
+.checkout_main .full-block .left-block .content_checkout_items .payment-option-parent .single_payment_opt .select-app .form-part form input {
+    color: red;
+}
+.rating {
+    margin-top: 40px;
+    border: none;
+    float: left;
+  }
+  
+  .rating > label {
+    color: #90A0A3;
+    float: right;
+  }
+  
+  .rating > label:before {
+    margin: 5px;
+    font-size: 2em;
+    font-family: FontAwesome;
+    content: "\f005";
+    display: inline-block;
+  }
+  
+  .rating > input {
+    display: none;
+  }
+  
+  .rating > input:checked ~ label,
+  .rating:not(:checked) > label:hover,
+  .rating:not(:checked) > label:hover ~ label {
+    color: #F79426;
+  }
+  
+  .rating > input:checked + label:hover,
+  .rating > input:checked ~ label:hover,
+  .rating > label:hover ~ input:checked ~ label,
+  .rating > input:checked ~ label:hover ~ label {
+    color: #FECE31;
+  }
+  .review-text {
+      width: 100%;
+      margin-top: 5%;
+  }
+  .order-item img{
+      width: 20%;
+  }
+  .color-grey{
+    color: #e6e6e6;
+  }
+  .mt-20 {
+    margin-top: 100px
+}
+
+.progress {
+    height: 31px;
+    margin-bottom: 10px
+}
+
+.progress .skill {
+    font: normal 12px "Open Sans Web";
+    line-height: 32px;
+    padding: 0;
+    margin: 0 0 0 20px;
+    text-transform: uppercase
+}
+
+.progress .skill .val {
+    float: right;
+    font-style: normal;
+    margin: 0 20px 0 0
+}
+
+.progress-bar {
+    text-align: left;
+    transition-duration: 3s
+}
+
+.bsp_big-image {
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    margin-top: 0px
+}
+.review-bar{
+  background-color: #212529;
+}
+
+.vacancies .dataTables_info , .vacancies .dataTables_paginate , .vacancies .dataTables_length , .vacancies .dataTables_filter {
+  display:none;
+}
+*Hidden class for adding and removing*/
+.display-none {
+    display: none !important;
+}
+
+/*Add an overlay to the entire page blocking any further presses to buttons or other elements.*/
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,.8);
+    z-index: 999;
+    opacity: 1;
+    transition: all 0.5s;
+}
+ 
+/*Spinner Styles*/
+.lds-dual-ring {
+    display: inline-block;
+}
+.lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 5% auto;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+#getDataBtn{
+    background: #e2e222;
+    border: 1px solid #e2e222;
+    padding:  10px 20px;
+}
+.text-center{
+    text-align: center;
+}
+#data-table table{
+    margin: 20px auto;
+}
+
+.timeline
+{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ .timeline .li
+ {
+  transition: all 200ms ease-in;
+}
+
+.timestamp
+{
+    margin-bottom: 20px;
+  padding: 0px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 100;
+}
+  
+.status
+{
+    padding: 0px 40px;
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid #D6DCE0;
+    position: relative;
+    transition: all 200ms ease-in;
+}
+  
+ 
+.li.complete .status {
+    border-top: 2px solid #000;
+} 
+.status:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    position: absolute;
+    top: -6px;
+    left: 42%;
+    transition: all 200ms ease-in;
+}
+.li.complete .status::before {
+    background-color: #000;
+    border: none;
+    transition: all 200ms ease-in;
+}
+.status h4{
+    margin-top: 10px;
+}
+.reason-btn{
+    width: 100% !important;
+}

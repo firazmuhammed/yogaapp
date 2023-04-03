@@ -1,0 +1,21 @@
+@mixin d_flex(){
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  @mixin transition($type, $sec, $motion){
+    -webkit-transition: $type $sec $motion;
+    -moz-transition: $type $sec $motion;
+    -ms-transition: $type $sec $motion;
+    -o-transition: $type $sec $motion;
+    transition: $type $sec $motion;
+  }
+  @mixin rotate($x){
+    -webkit-transform: rotate($x);
+    -moz-transform: rotate($x);
+    -ms-transform: rotate($x);
+    -o-transform: rotate($x);
+    transform: rotate($x);
+  }

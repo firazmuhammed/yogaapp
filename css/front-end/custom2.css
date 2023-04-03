@@ -1,0 +1,203 @@
+
+.fa-product-full-block .single .img-with-btn 
+{
+    z-index: 0 !important;
+}
+
+.fa-product-full-block .single .img-with-btn button{
+    z-index: 100 !important;
+}
+.compare-block .fa-container .selected-product{
+    justify-content:flex-start !important;
+}
+.fa-product-full-block .single:hover .img-with-btn:after{
+    z-index: 0 !important;
+    display: none;
+}
+.fa-product-full-block .single .like{
+    z-index: 100 !important;
+    position: absolute;
+}
+.fa-product-full-block .single:hover .img-with-btn button{
+    position: relative;
+    z-index: 1000 !important;
+}
+.fa-product-full-block .single .share-par{
+    position: absolute !important;
+    z-index: 1000 !important;
+}
+.floatz{
+	position:fixed;
+	padding: 10px 20px;
+	bottom:240px;
+	right:20px;
+	background-color:#000000;
+	color:#FFF;
+	border-radius:5px;
+	text-align:center;
+	box-shadow: 1px 1px 1px #999;
+}
+.floatz::before{
+    content: '';
+    background-image: url("../public/images/front-end/cmp.png") no-repeat;
+    float: left;
+    width: 14px;
+    height: 15px;
+    background-color: red;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.floatz:hover{
+    
+	background-color:#000000;
+	color:rgb(212, 212, 212);
+}
+
+.page-item{
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: .25rem;
+    line-height: 24px;
+    margin-right: .5rem;
+}
+.page-item.active .page-link{
+    z-index: 3;
+    color: #fff !important;
+    font-family: "Open Sans",sans-serif;
+    background-color: #000000 !important;
+    border-color: #000000 !important;
+    font-weight: bold;
+            user-select: none;
+            position: relative;
+            text-align: center;
+            box-sizing: content-box;
+            background: transparent;
+}
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #000000;
+    background-color: #fff;
+    font-size: 14px;
+    font-family: "Open Sans",sans-serif;
+    font-weight: bold;
+    border: 1px solid #1b1b1b;
+}
+.page-item:last-child .page-link {
+    border-top-right-radius: 0rem;
+    border-bottom-right-radius: 0rem;
+    font-size: 14px;
+    font-family: "Open Sans",sans-serif;
+}
+.page-item:first-child .page-link {
+    margin-left: 0;
+    border-top-left-radius: 0rem;
+    font-size: 14px;
+    border-bottom-left-radius: 0rem;
+}
+.page-link:hover {
+    z-index: 2;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #3a3a3a;
+    border-color: #3a3a3a;
+}
+.blog-single-page .left_block .content .nex-project {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000;
+    font-family: "Open Sans",sans-serif;
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    float: right;
+}
+
+.blog-single-page .left_block .content .prev-project{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    color: #7e7e7e;
+    font-family: "Open Sans",sans-serif;
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    float: left;
+}
+.blog-single-page .left_block .content .prev-project:hover{
+    color: #000000;
+}
+.blog-single-page .left_block .content .nex-project:hover{
+    color: #7e7e7e;
+}
+.confirm-btn {
+    height: 48px;
+    border: none;
+    background: #000;
+    color: #fff;
+    font-family: "Open Sans",sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    width: 100%;
+    margin-top: 25px;
+}
+.apply-gift-card li{
+    line-height: 43px;
+}
+.apply-gift-card input{
+
+    margin-right: 30px;
+
+}
+.apply-gift-card label{
+    font-weight: 600;
+}
+.one{
+    background: red;
+    margin-right: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 11px !important;
+    width: 17px;
+    line-height: 16.5px !important;
+    text-align: center;
+    height: 17px;
+    border-radius: 50%;
+}
+.profile-left-ul img{
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.sp-btn{
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+/* .form-part{
+    display: none;
+}
+.add-new-address-block:active + .form-part{
+    display: block;
+    transition: all 0.35s;
+    width: 100%;
+    height: auto;
+} */
+.progress {
+    height: 16px;
+    margin-bottom: 10px;
+}
+.login-with-register .fa-container .content-block .right-block .right-block-content ul li {
+    width: 50%;
+    display: contents;
+}
+.blog-part .fa-container .blog_fullblock .left_block {
+    width: 65%;
+    display: flex;
+    /* flex-direction: column; */
+    padding-right: 70px;
+}
